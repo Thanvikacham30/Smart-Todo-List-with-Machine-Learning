@@ -1,0 +1,347 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+
+    background:linear-gradient(135deg,#FFD6E8,#CFEFFF);
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:30px;
+
+}
+
+.container{
+
+    width:600px;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:25px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+
+}
+
+h1{
+
+    text-align:center;
+
+    color:#ff4d94;
+
+    margin-bottom:25px;
+
+}
+
+h2{
+
+    color:#5a84d6;
+
+    margin-top:20px;
+
+    margin-bottom:15px;
+
+}
+
+.input-box{
+
+    display:flex;
+
+    gap:10px;
+
+    margin-bottom:15px;
+
+}
+
+.input-box input{
+
+    flex:1;
+
+    padding:14px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#FFF0F7;
+
+    font-size:16px;
+
+    outline:none;
+
+}
+
+.input-box button{
+
+    background:#B9E4FF;
+
+    border:none;
+
+    padding:14px 18px;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.input-box button:hover{
+
+    background:#87CEFA;
+
+    transform:scale(1.05);
+
+}
+
+.reminder-box{
+
+    margin:15px 0;
+
+    font-size:17px;
+
+}
+
+.time-box input{
+
+    width:100%;
+
+    padding:14px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#EAF8FF;
+
+    margin-bottom:20px;
+
+}
+
+.add-btn{
+
+    width:100%;
+
+    background:#ff7eb6;
+
+    color:white;
+
+    border:none;
+
+    padding:15px;
+
+    border-radius:15px;
+
+    font-size:17px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.add-btn:hover{
+
+    background:#ff5d9e;
+
+    transform:scale(1.03);
+
+}
+
+#predictionBox{
+
+    margin:15px 0;
+
+    padding:12px;
+
+    border-radius:12px;
+
+    font-weight:bold;
+
+    text-align:center;
+
+}
+
+.success{
+
+    background:#D8F8D8;
+
+    color:green;
+
+}
+
+.warning{
+
+    background:#FFF3CD;
+
+    color:#856404;
+
+}
+
+ul{
+
+    list-style:none;
+
+}
+
+li{
+
+    background:#FFF7FB;
+
+    padding:15px;
+
+    margin-top:15px;
+
+    border-radius:15px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    box-shadow:0 5px 10px rgba(0,0,0,.08);
+
+}
+
+.task{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+}
+
+.task input{
+
+    width:20px;
+
+    height:20px;
+
+    accent-color:#ff69b4;
+
+}
+
+.completed{
+
+    text-decoration:line-through;
+
+    color:gray;
+
+}
+
+.buttons{
+
+    display:flex;
+
+    gap:10px;
+
+}
+
+.delete{
+
+    background:#ff8fb2;
+
+    color:white;
+
+    border:none;
+
+    padding:8px 14px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.delete:hover{
+
+    background:#ff4d94;
+
+}
+
+.edit{
+
+    background:#BDEBFF;
+
+    border:none;
+
+    padding:8px 14px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+}
+
+.edit:hover{
+
+    background:#87CEFA;
+
+}
+
+hr{
+
+    margin:20px 0;
+
+    border:none;
+
+    border-top:2px dashed #ffd0e6;
+
+}
+
+@media(max-width:650px){
+
+.container{
+
+width:100%;
+
+}
+
+.input-box{
+
+flex-direction:column;
+
+}
+
+.input-box button{
+
+width:100%;
+
+}
+
+.buttons{
+
+flex-direction:column;
+
+}
+
+.delete,.edit{
+
+width:100%;
+
+}
+
+}
