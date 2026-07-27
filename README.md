@@ -67,21 +67,27 @@ http://127.0.0.1:5000
 ## Project Flow
 
 User
+
 ↓
 
 Enter Task
+
 ↓
 
 ML Prediction
+
 ↓
 
 Reminder Selection
+
 ↓
 
 Save in MySQL
+
 ↓
 
 Display Tasks
+
 ↓
 
 Complete/Delete Task
